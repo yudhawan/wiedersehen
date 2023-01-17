@@ -7,7 +7,7 @@ export const socialMedia = [
     },
     {
         label:'whatsapp',
-        link:'https://api.whatsapp.com/send?phone=6282332411031',
+        link:'https://api.whatsapp.com/send?phone=6285163112515',
         icon:WhatsApp
     },
     {
