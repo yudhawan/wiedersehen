@@ -1,0 +1,39 @@
+@import '../../styles/constant.module.scss';
+
+.container{
+    display: none;
+    @media only screen and (max-width: $tablet){
+        color: $white;
+        height: 100vh;
+        background:$blue-1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+    }
+}
+.stemList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.stem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid $white;
+    text-decoration: none;
+    color: $white;
+    height: 20px;
+    padding: 12px 16px;
+    border-radius: 20px;
+    margin-top: 24px;
+    p{
+        margin-left: 16px;
+        width: 100%;
+        text-transform: capitalize;
+    }
+}
+.stem:first-child{
+    margin-top: 0;
+}
